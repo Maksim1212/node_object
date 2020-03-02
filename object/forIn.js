@@ -11,7 +11,7 @@ const obj = new ColoredTriangle();
 
 for (const prop in obj) {
     if (obj.hasOwnProperty(prop)) {
-        console.log(`obj.${prop} = ${obj[prop]}`);
+        console.log(`obj.${'color'} = ${prop}`);
     }
 }
 
